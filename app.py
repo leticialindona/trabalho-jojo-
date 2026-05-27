@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd 
 
-st.title(Filmes da barbie)
+st.title("Filmes da barbie")
 
 df = pd.read_csv("barbie_filmes.csv")
 st.write(df)
